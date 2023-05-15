@@ -1,9 +1,10 @@
+import React from "react";
 
 function Jogo(){
 
     return (
         <>
-          componente jogo ...
+            imagens jogo
         </>
       );
 }

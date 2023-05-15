@@ -1,10 +1,16 @@
-function Letras(){
+import React from "react";
+
+function Letras({letter, startdisabled, setstartdisabled, prevletters, setPrevletters}){
     
     return (
-        <>
-          componente Letras ...
-        </>
-      );
+        <button
+            className="marcada" 
+            disabled={prevletters.includes(letter) ? true : startdisabled} 
+           
+            data-test="letter">
+                {letter} 
+        </button>
+    );
 }
 
 export default Letras;
