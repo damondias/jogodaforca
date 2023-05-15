@@ -6,7 +6,7 @@ function Letras({letter, startdisabled, setstartdisabled, prevletters, setPrevle
         <button
             className="marcada" 
             disabled={prevletters.includes(letter) ? true : startdisabled} 
-           
+
             data-test="letter">
                 {letter} 
         </button>
