@@ -35,9 +35,9 @@ function App() {
                                                  startdisabled={startdisabled} 
                                                  setstartdisabled={setStartdisabled} 
                                                  prevletters={prevletters} 
-                                                 setPrevletters={setPrevletters}
+                                                 setprevletters={setPrevletters}
                                                  chosenword={chosenword} 
-                                                 setchosenword1={setChosenword} 
+                                                 setchosenword={setChosenword} 
                                                  markletter={markletter} 
                                                  setmarkletter={setMarkletter} 
                                                  errors={errors} 
